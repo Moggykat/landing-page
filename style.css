@@ -1,0 +1,62 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: inline-flex;
+    padding: 3px;
+    background: palevioletred;
+}
+
+.logo {
+    font-size: 28px;
+    margin-left: 120px;
+    width: 340px;
+    gap: 12px;
+}
+
+.links {
+    font-size: 17px;
+    margin-right: 120px;
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    gap: 18px;
+}
+
+.welcome {
+    padding-bottom: 120px;
+    background: palevioletred;
+}
+
+.intro, h2 {
+    margin-left: 120px;
+}
+
+h2 {
+    box-sizing: border-box;
+    font-size: 10px;
+    width: 130x;
+}
+
+.intro {
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+.buttons {
+    margin-left: 120px;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    
+}
