@@ -1,62 +1,132 @@
 body {
-    padding: 0;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    padding: 0;
+}
+
+
+.cont {
     display: flex;
-    flex-direction: column;
+    justify-content: flex-end;
+    padding-right: 250px;
+    background: rgb(112, 112, 179) ;
+}
+
+img{
+    border: 3px solid;
 }
 
 .header {
-    display: inline-flex;
-    padding: 3px;
-    background: palevioletred;
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(112, 112, 179);
+    height: 160px;
 }
 
 .logo {
-    font-size: 28px;
-    margin-left: 120px;
-    width: 340px;
-    gap: 12px;
-}
-
-.links {
-    font-size: 17px;
-    margin-right: 120px;
     display: flex;
+    align-items: baseline;
+    margin-left: 50px;
+}
+
+ul {
     list-style: none;
-    margin-left: auto;
-    gap: 18px;
-}
-
-.welcome {
-    padding-bottom: 120px;
-    background: palevioletred;
-}
-
-.intro, h2 {
-    margin-left: 120px;
-}
-
-h2 {
-    box-sizing: border-box;
-    font-size: 10px;
-    width: 130x;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-right: 50px;
 }
 
 .intro {
-    margin-top: 60px;
-    font-size: 40px;
+    display: flex;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    margin: 0;
+    flex: 1;
+    background: rgb(112, 112, 179);
+    
+
 }
 
-.buttons {
-    margin-left: 120px;
+h2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 1200px;
+    padding-bottom: 32px;
+    margin: 0;
+    flex: 1;
+    background: rgb(112, 112, 179);
+    height: 70px;
+    width: 250px;
+    font-size: 18px;
+}
+
+
+button {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 8px;
+    max-height: 30px;
+
 }
 
 .mid {
     display: flex;
     justify-content: center;
+    padding-top: 40px;
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+    
 }
 
 .card {
-    
+  width: 90px;
+  height: 90px;
+  border: 3px solid green;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 20px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background: rgb(193, 193, 193);
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 22px;
+    width: 800px;
+    height: 120px;
+    background: rgb(115, 115, 179);
+    border-radius: 4px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background: rgb(225, 189, 225);
 }
