@@ -1,74 +1,75 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: "roboto", sans-serif;
 }
 
-
-.cont {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 250px;
-    background: rgb(112, 112, 179) ;
+img {
+    height: 200px;
+    width: 400px;
+    flex-shrink: 1;
+    border-radius: 10px;
 }
 
-img{
-    border: 3px solid;
-}
-
-.header {
-    display: flex;
-    justify-content: space-evenly;
-    background: rgb(112, 112, 179);
-    height: 160px;
-}
-
-.logo {
-    display: flex;
-    align-items: baseline;
-    margin-left: 50px;
-}
 
 ul {
     list-style: none;
     display: flex;
-    flex: 1;
-    justify-content: flex-end;
     gap: 20px;
-    margin-right: 50px;
 }
 
-.intro {
-    display: flex;
-    padding-left: 50px;
-    padding-bottom: 30px;
-    margin: 0;
-    flex: 1;
-    background: rgb(112, 112, 179);
-    
-
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
 }
-
-h2 {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 50px;
-    padding-right: 1200px;
-    padding-bottom: 32px;
-    margin: 0;
-    flex: 1;
-    background: rgb(112, 112, 179);
-    height: 70px;
-    width: 250px;
-    font-size: 18px;
-}
-
 
 button {
     display: flex;
     justify-content: flex-start;
-    margin-top: 8px;
-    max-height: 30px;
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 7px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
+.bb h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+h2{
+    font-size: 18px;
+    color: #e5e7eb88;
+}
+
+.header{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    padding: 10px 60px;
+    background: url("kitty.jpg");
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 10px;
+    width: 300px;
 }
 
 .mid {
@@ -90,10 +91,15 @@ button {
 .card {
   width: 90px;
   height: 90px;
-  border: 3px solid green;
+  border: 3px solid rgb(197, 138, 0);
   border-radius: 15px;
   padding: 30px;
   margin: 20px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
 }
 
 .quote {
@@ -101,11 +107,12 @@ button {
     justify-content: center;
     align-items: center;
     height: 300px;
-    background: rgb(193, 193, 193);
+    background: rgb(246, 223, 160);
 }
 
 .bottom {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 300px;
@@ -113,14 +120,23 @@ button {
 
 .call {
     display: flex;
-    align-items: center;
-    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
     justify-content: space-evenly;
-    gap: 22px;
-    width: 800px;
-    height: 120px;
-    background: rgb(115, 115, 179);
+    flex-direction: column;
+    padding: 50px;
+    gap: 14px;
+    width: 700px;
+    height: 100px;
+    background: rgb(197, 138, 0);
     border-radius: 4px;
+    color: white;
+}
+
+.call1 {
+    display: flex;
+    flex-direction: column;
+
 }
 
 footer {
@@ -128,5 +144,5 @@ footer {
     justify-content: center;
     align-items: center;
     height: 50px;
-    background: rgb(225, 189, 225);
+    background: url("kitty.jpg");
 }
